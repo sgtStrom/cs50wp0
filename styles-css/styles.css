@@ -1,0 +1,61 @@
+.site-nav, .site-main {
+  padding: 20px; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.site {
+  background-color: lightgrey; }
+
+#header-image {
+  background-image: url("../img/img_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+.site-nav {
+  background-color: lightgrey; }
+
+.site-nav ul {
+  list-style-type: none;
+  flex-direction: column !important; }
+
+.card {
+  margin-bottom: 1rem; }
+
+main > table {
+  width: 100%; }
+  main > table th:not(#last-th) {
+    padding: 0.75rem; }
+  main > table tr:nth-child(even) {
+    background-color: white; }
+  main > table tr:last-child {
+    background-color: inherit; }
+  main > table td#table-footer {
+    font-size: 0.75rem; }
+
+footer p {
+  margin: 5px 0; }
+  footer p a#author-email:hover {
+    color: blue !important; }
+  footer p a:hover {
+    text-decoration: none; }
+
+@media screen and (max-width: 1200px) {
+  .site-nav ul {
+    list-style-type: none;
+    flex-direction: row !important; }
+
+  .site-main {
+    padding: 0 20px 20px 20px; } }
+@media screen and (max-width: 468px) {
+  .site-nav ul {
+    list-style-type: none;
+    flex-direction: column !important; }
+
+  .site-main {
+    padding: 20px 20px 0 20px; } }
+
+/*# sourceMappingURL=styles.css.map */
